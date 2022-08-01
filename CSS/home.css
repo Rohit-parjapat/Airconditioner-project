@@ -1,0 +1,265 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #848e9f;
+  overflow-x: hidden;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.header{
+  position: relative;
+  z-index: 1000;
+}
+.is-sticky {
+  flex: inherit;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1040;
+  border-bottom: 0 !important;
+  height: 85px !important;
+  max-height: 100px !important;
+  background-color: #fff !important;
+  box-shadow: 0 3px 4px rgb(156 149 149);
+  animation: translateHeader 0.8s;
+}
+.page-logo {
+  width: 130px;
+  height: 64px;
+  border-radius: 0px 40px;
+  margin: 8px 0px;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  background: #fff;
+  padding: 0;
+  color: #333;
+  padding: 1px 0;
+  height: 80px;
+}
+.icon-header{
+  background: #fff;
+  padding: 0;
+  color: #333;
+  width: 100%;
+}
+.navbar-nav{
+  list-style: none;
+  width: 100%;
+  height: 79px;
+}
+.list-item {
+  width: 20%;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    border-right: 1px solid rgb(173, 177, 184);
+}
+.nav-link {
+  display: block;
+  color: rgb(241, 226, 226);
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.cursor {
+  cursor: pointer;
+  margin-bottom: -5px;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.carousel-inner img {
+  width: 100%;
+ height: 600px;
+ }
+ 
+.bg-image {
+  background-image: url("../images/ac1.jpg");
+  background-size: cover;
+  width: 70em;
+  height: 600px;
+  margin: 50px 70px;
+}
+.user-wel {
+  font-size: 40px;
+    margin-top: 5px;
+    font-family: serif;
+    color: #2f395a;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.balraj-aircon {
+  font-size: 50px;
+  margin: 0px 0px 15px 10px;
+  font-family: serif;
+  color: rgb(26 28 98);
+  font-weight: bolder;
+}
+
+
+.first-btn {
+  margin: 5px 10px 2px 315px;
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: rgb(110, 105, 105);
+  font-family: sans-serif;
+  font-weight: bolder;
+  box-shadow: 0 7px 30px 10px rgb(240 242 245 / 50%);
+}
+
+.second-btn {
+  color: rgb(110, 105, 105);
+  font-weight: bolder;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-family: sans-serif;
+  margin-left: 25px;
+  box-shadow: 0 7px 30px 10px rgb(240 242 245 / 50%);
+}
+
+.first-btn:hover {
+  color: #4893f1;
+}
+
+.second-btn:hover {
+  color: #4893f1;
+}
+
+.heading {
+  text-align: center;
+  padding: 20px;
+  font-size: 35px;
+  letter-spacing: 3px;
+  font-family: serif;
+  font-weight: bold;
+  color: #091978;
+}
+
+.fa-arrow-right {
+  font-family: fontawesome;
+  color: black;
+}
+
+.detail {
+  margin: 0px 50px;
+}
+
+.detail p {
+  margin: 20px;
+}
+
+.link {
+  transition: color 0.3s ease;
+  text-decoration: none;
+  background-color: transparent;
+  color: #57575b;
+}
+
+.footer {
+  background-color: #202832;
+  padding: 25px 0px;
+  box-shadow: 0 7px 30px 10px rgb(240 242 245 / 50%);
+}
+
+.footer-wigdet-title {
+  font-size: 15px;
+  margin-bottom: 25px;
+  color: aliceblue;
+  text-align: inherit;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.6px;
+  font-family: sans-serif;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul li p {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 0;
+  letter-spacing: 0.6px;
+  color: #1f314f;
+  font-family: "IBM Plex Sans", sans-serif;
+  line-height: 20px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+
+ul.footer-info li {
+  margin-bottom: 11px;
+}
+
+p.footer-info {
+  font-size: 14px;
+}
+
+.footer-info {
+  text-align: inherit;
+  color: #57575b;
+  font-family: sans-serif;
+}
+
+.fa-map-marker-alt {
+  font-family: fontawesome;
+  color: #57575b;
+}
+
+.fa-phone {
+  font-family: fontawesome;
+  color: #57575b;
+}
+
+.fa-envelope {
+  font-family: fontawesome;
+  color: #57575b;
+}
+
+/* #fb {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#p3 {
+  margin-bottom: 150px;
+  font-family: sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 25px;
+  color: rgb(112, 131, 142);
+}
+  
+  .dealing {
+    text-align: initial;
+    width: 550px;
+    margin-left: 50px;
+} */

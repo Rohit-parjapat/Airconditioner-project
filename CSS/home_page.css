@@ -1,0 +1,329 @@
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+/* logo css  */
+.border-radius {
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 50px;
+}
+.navbar-border{
+  background-color: #08275c;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.navbar-brand {
+  width: 135px;
+  height: fit-content;
+}
+
+/* carousel css  */
+.deals>.carousel-item>img {
+  height: 395px;
+}
+
+/* .main-carousel>.carousel-item>img {
+  height: 550px;
+} */
+
+.vedio-div {
+  position: relative;
+  overflow: hidden;
+}
+
+.owner-detail {
+  /* position: absolute;
+  top: 0;
+  left: 5%; */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.owner_contact {
+  background: rgb(90 101 105 / 50%);
+  /* margin: 0px 160px; */
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.list-group-item {
+  border: none;
+}
+
+/* div space css  */
+.space {
+  width: 100%;
+  height: 3rem;
+}
+
+.top_space {
+  width: 100%;
+  height: 6rem;
+}
+
+/* solution css */
+.image-css {
+  width: 65%;
+  height: 100%;
+  box-shadow: 0px 0px 15px 2px #807979;
+}
+
+.para-head {
+  border: 3px solid #091d3e;
+  display: inline-block;
+  padding: 15px 340px;
+  background: #0b1d3e;
+  color: #4c93ff;
+}
+
+.text__link {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.para-head a {
+  color: #fff !important;
+}
+
+.btn__link.btn__secondary {
+  color: #091d3e;
+}
+
+.btn__link {
+  background-color: transparent;
+  border-color: transparent;
+  min-width: 0;
+  line-height: 1;
+  height: auto;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  margin-top: -5px;
+}
+
+.title-heading {
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  background: #1d0a83;
+  padding: 10px 0px;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: serif;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+/* .work-heading {
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  background: #1d0a83;
+  padding: 10px 0px;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: serif;
+  text-decoration: none;
+  border-radius: 10px;
+} */
+
+/* accordion css start  */
+.accordion {
+  max-width: 600px;
+  display: block;
+}
+
+.accordion .card {
+  box-shadow: 0px 0px 20px #d4d4d4;
+  float: left;
+  width: 100%;
+}
+
+.accordion .card .card-header h4 {
+  cursor: pointer;
+  color: #ffffff;
+  position: relative;
+  background-color: #0b1132;
+  margin: 0;
+  padding: 5px 5px;
+  border-radius: 5px;
+
+}
+
+.accordion .card .card-header {
+  position: relative;
+  padding: 5px;
+}
+
+.accordion .card .card-header span {
+  position: absolute;
+  right: 25px;
+  top: 13px;
+  height: 25px;
+  width: 25px;
+  color: #3343a2;
+  background-color: #ffffff;
+  border-radius: 50%;
+  line-height: 25px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.accordion .card .card-body {
+  padding: 0px;
+}
+
+.accordion .card .card-body {
+  display: none;
+}
+
+/* open one card  */
+.accordion .card:nth-child() .card-body {
+  display: block;
+}
+
+/* .accordion .card .card-body p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #444444;
+  margin: 0px;
+} */
+
+.list-group-item {
+  padding: 5px 1rem;
+}
+
+/* company details CSS */
+
+.album div img {
+  width: 15em;
+  height: 10em;
+  margin: 10px 13px;
+}
+
+div.shadow-sm {
+  background-color: #06134f;
+}
+
+button a:hover {
+  color: white;
+}
+
+/* Contact form CSS */
+.contactForm {
+  box-shadow: 0px 0px 15px 2px #807979;
+  padding: 30px;
+  width: 650px;
+  height: auto;
+  background-color: #fff;
+}
+
+.bg-image {
+  background-image: url('/images/contactbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fields {
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 400px;
+  border-radius: unset;
+  font-size: smaller;
+  font-family: sans-serif;
+}
+
+.form-submitbtn {
+  background-color: transparent;
+  border: 2px solid black;
+  font-weight: bolder;
+  font-family: initial;
+}
+
+.contact-detail {
+  background-color: #0b1132;
+  width: 350px;
+  height: auto;
+  box-shadow: 0px 0px 15px 2px #0b1132;
+  position: absolute;
+  top: 225px;
+  right: 200px;
+}
+
+.contact-detail-head {
+  color: #c2bbbb;
+  font-size: smaller;
+  padding: 20px 0px 0px 50px;
+}
+
+.contact-info {
+  color: #807979;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 0px 0px 35px 60px;
+}
+
+.fa-phone {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  color: #bb4809;
+  border-radius: 50%;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.fa-location {
+  position: absolute;
+  top: 130px;
+  left: 25px;
+  color: #bb4809;
+  border-radius: 50%;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.fa-square-envelope {
+  position: absolute;
+  bottom: 70px;
+  left: 25px;
+  color: #bb4809;
+  border-radius: 50%;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+/* worker detail CSS */
+.worker-name{
+  text-align: center;
+  font-family: serif;
+  color: darkblue;
+  font-weight: 600;
+}
+.worker-bio{
+  font-family: sans-serif;
+  color: #083358;
+}
+@media only screen and (min-width:800px) {
+  .owner_image {
+    width: 27em;
+    height: 8em;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    color: azure;
+  }
+
+  .info {
+    background: rgb(28 82 178 / 30%);
+    text-align: center;
+    margin: 160px 90px 0px;
+    color: #fff;
+    border-radius: 10px;
+  }
+}

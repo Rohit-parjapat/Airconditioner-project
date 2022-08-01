@@ -1,0 +1,9 @@
+munjal kiriu =https://www.google.co.in/maps/place/Munjal+Kiriu+Industries+Private+Limited/@28.3658998,76.9066939,17.18z/data=!4m5!3m4!1s0x390d3e62d38a663f:0x3206924bd8e860d0!8m2!3d28.365899!4d76.908747
+
+amtek auto = https://www.google.co.in/maps/place/Amtek+Auto+Ltd/@28.3644268,76.9139474,17z/data=!3m1!4b1!4m5!3m4!1s0x390d3e7d8b2bafdb:0xc663572ea8bcd82b!8m2!3d28.3644221!4d76.9161415
+
+ctdi = https://www.google.co.in/maps/place/Communications+Test+Design+India+Pvt+Ltd/@28.3771187,76.9217919,17z/data=!3m1!4b1!4m5!3m4!1s0x390d3dd14b4dffe9:0xdf6c40dda0c0d85d!8m2!3d28.377114!4d76.923986
+ 
+krishna maruti = https://www.google.co.in/maps/search/krishna+maruti+limited/@28.3772565,76.8537625,12z/data=!3m1!4b1
+
+maxop = https://www.google.co.in/maps/place/Maxop+Engineering+Company+Private+Limited/@28.3726697,76.9232181,17z/data=!3m1!4b1!4m5!3m4!1s0x390d3e73bfffffff:0x23a4e536f3b272be!8m2!3d28.3726642!4d76.925452
